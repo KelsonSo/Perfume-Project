@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Grape+Nuts&family=Josefin+Sans&display=swap');
+
+
+
+html,body{
+    background: #a43838;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*  NAVBAR */
+.navbar{
+    font-size: 600;
+    letter-spacing: 4px;
+    align-items: baseline;
+    justify-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.navbar ul li{
+    align-content: space-between;
+    margin-right: 20px ;
+    margin-left: 20px;
+    
+}
+
+/* CONTAINER */
+
+#home .container{
+    
+    color: #fff;
+    display:grid;
+    margin-top: 60px;
+    align-items: center;
+    
+    
+}
+
+
+#contact .container{
+    margin-top: 20px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+}
+#contact .container .row{
+    
+    width: 100%;
+    
+}
+
+/* FONTS / IMG / ICONS */
+
+.fa-solid{
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.pag-nome{
+    vertical-align: middle;
+    padding-top: 30px;
+}
+h1{ 
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p.texto{
+    width: 200px;
+    font-size: 25px;
+}
+p{  font-size: 25px;
+    font-family: 'Grape Nuts', cursive;
+}
+.img{
+    
+
+    opacity: 0.8;
+    
+    position: relative;
+    height: 100%;
+}
+
+
+/* CSS Slide */
+
+.carousel{  
+    
+    margin-top: 50px;
+    width: 680px;
+    height: 420px;
+    
+}
+
+.carousel .carousel-inner{
+    
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, .4);
+}
+#photos .carousel .carousel-inner .carousel-item .carousel-caption{
+    color: #000;
+}
