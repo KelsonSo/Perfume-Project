@@ -20,8 +20,15 @@ html,body{
     margin-bottom: 10px;
     
 }
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
 
 .navbar ul li{
+    
     align-content: space-between;
     margin-right: 20px ;
     margin-left: 20px;
